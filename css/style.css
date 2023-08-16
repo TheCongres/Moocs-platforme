@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap');
+body{
+    font-family: 'STIX Two Text', serif;
+}
+/*-------------------------start-header-------------------*/
+header{
+background-color:blueviolet;
+height: 20px;
+}
+
+
+/*-------------------------end-header-------------------*/
+
+/*-------------------------start-body-------------------*/
+nav  .container {
+  flex-wrap: nowrap
+}r;
+nav  .container .fas{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+/*-------------------------end-header-------------------*/
+
+/*-------------------------start-slider-------------------*/
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(137, 43, 226, 0.212);
+    position: absolute;
+    z-index: 1;
+}   
+/*-------------------------end-slider-------------------*/
+
+/*-------------------------start-futurs-------------------*/
+.futur{
+    margin-top: 75px;
+}
+.futur i {
+    height: 100px;
+    width: 100px;
+    font-size: 35px;
+    background-color: blueviolet;
+    line-height: 100px;
+    color: azure;
+}
+.futur h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+.futur p {
+    color: gray;
+    line-height: 1.6;
+}
+.futur h2 {
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+/*-------------------------end-futurs-------------------*/
+
+/*-------------------------start-ourteam-------------------*/
+.ourteam  {
+    padding: 20px;
+}
+.ourteam .row  {
+    padding: 20px;
+    align-items: center;
+    transform: translateX(17px);
+}
+.ourteam .col-lg-4  {
+    margin-bottom: 10px;
+}
+.ourteam .row .card{
+    background-color: rgba(240, 255, 255, 0.075);
+    border: none;
+    align-items: center;
+
+}
+.ourteam .row .card img{
+    width: 14rem;
+}
+
+.ourteam h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+/*-------------------------end-ourteam-------------------*/
+.statics  {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img//5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+
+    
+}
+.statics .ov {
+    width: 100%;
+    height:500px;
+    background-color: rgba(137, 43, 226, 0.425);
+    position: absolute;
+
+}
+.statics .col-sm-3 {
+    color:white;
+    margin-top: 160px;
+    
+}
+.statics p {
+    font-size: 45px;
+    width: 100%; 
+    color: white;
+}
+    
+
+/* Small Media Quiry*/
+@media (max-width:575px){
+    .statics {
+        width: 100%;
+        height: 100%;
+    }
+    .statics .ov{
+        width: 100%;
+        height: 1156px;
+
+    }
+    .ourteam  .row   {
+        display: inline-block;
+     }
+    
+
+}
+
+/*start Partners*/
+    .partners{
+        
+        background-color: #eee;
+        text-align: center;
+        line-height: 300px;
+
+    }
+    .row{
+      padding-bottom: 40px;
+    }
+    
+    .col-lg img{
+        width: 100%;
+    }
+    .partners h2 {
+        padding-top: 40px;
+        font-size: 40px;
+    }
+/*end Partners*/
+
+/*start carousel*/
+.carousel{
+    margin-bottom: 20px;
+}
+.controls-top{
+   
+    font-size: 50px; 
+    text-align: center;
+}
+.carousel-inner > {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+/* Small Media Quiry*/
+@media (max-width:768px){
+  
+    .controls-top  {
+        display: none;
+     }
+    
+
+}
+
+.carousel .carousel-indicators .ind{
+    background-color: blueviolet;
+    border-radius: 50%;
+    transform: translateY(40px);
+    width:  10px;
+    height: 10px;
+
+}
+/*end carousel*/
+
+/*-------------blog page----------------------*/
+
+/*blog*/
+.jumbotron-fluid{
+    background-color: rgba(137, 43, 226, 0.301);
+    color: azure;
+
+}
+.breadcrumb{
+    background-color: rgba(137, 43, 226, 0.288);
+    color: azure;
+
+}
+.col-md-9 .jumbotron{
+    background-color: rgba(137, 43, 226, 0.568);
+}
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.jumbotron .blog-info{
+  flex: 2;
+  color: azure;
+  font-family: 'Times New Roman', Times, serif;
+}
+.jumbotron .blog-image{
+    flex: 1;
+}
+/*--------------------course details--------------*/
+
+.p-3 div p i {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*start footer*/
+footer   {
+    background-color: #eee;
+    
+    margin-top: 40px;
+
+       
+}
+footer ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    transform: translateX(-25px);   
+    font-family:'Times New Roman', Times, serif;
+    font-size: 11px;
+    line-height: 1.8;
+    padding: 40px 80px;
+}
+footer ul a{
+    color: gray;
+    
+}
+footer .row p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+footer  .container .fas{
+    color: brown;
+    font-size: 50px;
+}
+.ft .fab{
+    background-color: blueviolet;
+    color: azure;
+    border-radius:50%;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+ /*end footer*/
